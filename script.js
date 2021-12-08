@@ -72,7 +72,6 @@ function dele(){
 
 function isNumber(evt) {
     const chacode= evt.keyCode;
-    console.log(chacode);
     if (chacode>=48 && chacode <=57) {
         return true;
     }

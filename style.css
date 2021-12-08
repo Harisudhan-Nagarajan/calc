@@ -1,19 +1,16 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    
-}
 
+.container{
+   margin: 0%;
+   padding: 0%;
+   display: flex;
+   justify-content: center;
+}
 #main-container{
-    display: flex;
-    flex-flow: column wrap;
+   
     background-color:black;
     height: 250px;
     width: 250px;
     border-radius: 5px;
-    position: relative;
-    top: 40px;
-    left: 40rem;
 }
 
 #output{
